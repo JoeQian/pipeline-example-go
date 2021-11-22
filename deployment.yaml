@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: helloserver-service
+  name: helloserver-service-2
 spec:
   selector:
     app: helloserver
@@ -14,7 +14,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example-helloserver
+  name: example-helloserver-2
   labels:
     app: helloserver
 spec:
