@@ -14,7 +14,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: hello-server-pp2:${CICD_EXECUTION_SEQUENCE}
+      tag: hello-server-pp2:v2
 - name: Deploy
   steps:
   - applyYamlConfig:
